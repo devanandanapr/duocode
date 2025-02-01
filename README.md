@@ -103,27 +103,20 @@ Question to solve to maintain programming streaks
 Basic Flow of Website. Page1-Initial choice for choosing programming language and progress in each language. Page2- Level tracker, daily quest and leaderboard. Page with mini compiler for cheching errors and compilation. Panel for motivation and FunFacts.Page3- Question to maintain streak. Page 3 redirects to congratulations message if choice is correct and try again message if choice is incorrect. Page4- Question 2.
 
 # Build Photos
-![Team](Add photo of your team here)
-
+![image](https://github.com/user-attachments/assets/63bc51b8-6bca-4b41-af64-af557540b6b4)
+Team OREO SHAKE❤️.
 
 ![image](https://github.com/user-attachments/assets/38faed9e-4d9c-4875-91a5-e49ec098774e)
 Build Process
 
 ![image](https://github.com/user-attachments/assets/8e91bbec-61da-4842-abcd-977c57aa7951)
-
+Final Prototype Website
 
 ### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://drive.google.com/file/d/1duMkDX_b4H8HS_txMNCpDvNjhh4fofNs/view?usp=sharing
+A demo of the website running on the phone. The page shows the streaks questions solution and the progress tracker updating accordingly. 
 
-# Additional Demos
-[Add any extra demo materials/links]
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
-
----
+# Additional Demos[
+https://drive.google.com/file/d/1qvczKGD-8rkUs5bojwy_4H9LWHLe_ja2/view?usp=sharing
+A figma demo to understand the control flow.
 Made with ❤️ at TinkerHub
