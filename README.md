@@ -14,7 +14,7 @@
 https://duocode-three.vercel.app/
 
 ### Project Description
-DUOCODE- is a website that gamifies learning programming languages. Whether you are a newbie or a , with streaks, quests and levels, this is your one stop shop to attain coding mastery.
+DUOCODE- is a website that gamifies learning programming languages. Whether you are a newbie or a pro , with streaks, quests and levels, this is your one stop shop to attain coding mastery.
 
 ### The Problem statement
 Coding can be intimidating and boring to many. With complex technicalities, it is every newbie's nightmare.
@@ -100,7 +100,7 @@ Question to solve to maintain programming streaks
 
 # Diagrams
 ![image](https://github.com/user-attachments/assets/7443dfd7-e896-4797-b36c-68fa49206ead)
-Basic Flow of Website. Page1-Initial choice for choosing programming language and progress in each language. Page2- Level tracker, daily quest and leaderboard. Page with mini compiler for cheching errors and compilation. Panel for motivation and FunFacts.Page3- Question 
+Basic Flow of Website. Page1-Initial choice for choosing programming language and progress in each language. Page2- Level tracker, daily quest and leaderboard. Page with mini compiler for cheching errors and compilation. Panel for motivation and FunFacts.Page3- Question to maintain streak. Page 3 redirects to congratulations message if choice is correct and try again message if choice is incorrect. Page4- Question 2.
 
 # Build Photos
 ![Team](Add photo of your team here)
@@ -109,8 +109,8 @@ Basic Flow of Website. Page1-Initial choice for choosing programming language an
 ![image](https://github.com/user-attachments/assets/38faed9e-4d9c-4875-91a5-e49ec098774e)
 Build Process
 
-![Final](Add photo of final product here)
-*Explain the final build*
+![image](https://github.com/user-attachments/assets/8e91bbec-61da-4842-abcd-977c57aa7951)
+
 
 ### Project Demo
 # Video
