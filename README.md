@@ -1,40 +1,129 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# DUOCODE 
 
-## Getting Started
 
-First, run the development server:
+## Basic Details
+### Team Name: OREO SHAKE
 
-```bash
+
+### Team Members
+- Member 1: LIYA MARY KOSHY - CET
+- Member 2: GAURI G THAMPI - CET
+- Member 3: DEVANANDANA P R - CET
+
+### Hosted Project Link
+https://duocode-three.vercel.app/
+
+### Project Description
+DUOCODE- is a website that gamifies learning programming languages. Whether you are a newbie or a , with streaks, quests and levels, this is your one stop shop to attain coding mastery.
+
+### The Problem statement
+Coding can be intimidating and boring to many. With complex technicalities, it is every newbie's nightmare.
+
+### The Solution
+Duocode addresses the problem by gamifying the learning process and making coding interesting. The users can ask questions and doubts and check if the syntax is correct in the mini compiler.
+
+## Technical Details
+### Technologies/Components Used
+For Software:
+- Languages used:
+- JavaScript (for logic and functionality)
+HTML (for structuring the UI)
+CSS (for styling via modules and Tailwind)
+
+- Frameworks used:
+- React.js (for building the UI)
+Next.js (for server-side rendering and routing)
+
+- Libraries used:
+- Tailwind CSS (for styling the UI components)
+LocalStorage API (for storing XP, streaks, and progress)
+
+- Tools used:
+- Figma (for UI/UX design, as seen in the image)
+VS Code (for development)
+Git & GitHub (for version control and collaboration)
+
+
+### Implementation
+For Software:
+# Installation
+-# Clone the repository
+-git clone https://github.com/your-repository/duocode.git  
+-# Navigate to the project folder
+-cd duocode  
+-# Install project dependencies
+-npm install
+
+# Run
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Project Documentation
+For Software:
+1. Introduction
+Duocode is an interactive learning platform designed to help users learn Java and Python through quizzes. It tracks progress, XP, and streaks while providing fun facts about programming.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+2. Features
+📌 Programming Quiz System (Java & Python)
+🏆 XP & Streak System to track learning progress
+📊 Progress Bar for each language
+🎭 Random Fun Facts about programming
+🎨 User-Friendly Interface inspired by DuoLingo
+3. Technologies Used
+-Software Components
+Languages:
+1.JavaScript (Frontend)
+2.HTML & CSS (Styling and Layout)
+Frameworks:
+1.React.js (Component-based UI)
+2.Next.js (Routing, Server-side rendering)
+Libraries:
+1.Tailwind CSS (Styling)
+2.LocalStorage API (Saving XP, streaks, and progress)
+Development Tools:
+1.Figma (UI/UX Design)
+2.Visual Studio Code (Code Editor)
+3.Git & GitHub (Version Control)
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+# Screenshots:
+![image](https://github.com/user-attachments/assets/e91b80a0-08f3-4017-9233-0a617c2621e7)
+Basic prompt model of Duocode, including streak questions, progress tracker and funfacts
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+![image](https://github.com/user-attachments/assets/55b06ead-216b-427e-828d-1c33eba94cb1) 
+Navigation Page to guide through different levels
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+![image](https://github.com/user-attachments/assets/48d9c5f0-bfd9-4a07-b5f4-4a338d6ed7fb)
+Question to solve to maintain programming streaks
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+# Diagrams
+![image](https://github.com/user-attachments/assets/7443dfd7-e896-4797-b36c-68fa49206ead)
+Basic Flow of Website. Page1-Initial choice for choosing programming language and progress in each language. Page2- Level tracker, daily quest and leaderboard. Page with mini compiler for cheching errors and compilation. Panel for motivation and FunFacts.Page3- Question 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Build Photos
+![Team](Add photo of your team here)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+
+![image](https://github.com/user-attachments/assets/38faed9e-4d9c-4875-91a5-e49ec098774e)
+Build Process
+
+![Final](Add photo of final product here)
+*Explain the final build*
+
+### Project Demo
+# Video
+[Add your demo video link here]
+*Explain what the video demonstrates*
+
+# Additional Demos
+[Add any extra demo materials/links]
+
+## Team Contributions
+- [Name 1]: [Specific contributions]
+- [Name 2]: [Specific contributions]
+- [Name 3]: [Specific contributions]
+
+---
+Made with ❤️ at TinkerHub
