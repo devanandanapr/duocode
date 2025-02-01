@@ -36,7 +36,6 @@ export default function Home() {
     loadQuestion();
   }, [language]);
 
-  // ✅ Load XP, Streak & Progress from Local Storage
   const loadProgress = () => {
     const storedXp = localStorage.getItem("xp");
     const storedStreak = localStorage.getItem("streak");
@@ -46,34 +45,28 @@ export default function Home() {
     setProgress(storedProgress);
   };
 
-  // ✅ Save XP, Streak & Progress to Local Storage
-  const saveProgress = (newXp, newStreak, newProgress) => {
+  const saveProgress = (newXp, newProgress) => {
     localStorage.setItem("xp", newXp);
-    localStorage.setItem("streak", newStreak);
+    localStorage.setItem("streak", streak);
     localStorage.setItem("progress", JSON.stringify(newProgress));
   };
 
-  // ✅ Handle Answer Submission
   const handleSubmit = (selectedAnswer) => {
     let newXp = xp;
-    let newStreak = streak;
     let newProgress = { ...progress };
 
     if (selectedAnswer === question.correctAnswer) {
       setFeedback("✅ Correct!");
       newXp += 10;
-      newStreak += 1;
       newProgress[language] = Math.min(newProgress[language] + 10, 100);
     } else {
       setFeedback("❌ Incorrect! XP reduced by 5.");
       newXp = Math.max(0, newXp - 5);
-      newStreak = 0; // Reset streak on incorrect answer
     }
 
     setXp(newXp);
-    setStreak(newStreak);
     setProgress(newProgress);
-    saveProgress(newXp, newStreak, newProgress);
+    saveProgress(newXp, newProgress);
 
     setTimeout(() => {
       loadQuestion();
@@ -81,7 +74,6 @@ export default function Home() {
     }, 1000);
   };
 
-  // ✅ Load a new question
   const loadQuestion = () => {
     const langQuestions = questions[language];
     setQuestion(langQuestions[Math.floor(Math.random() * langQuestions.length)]);
@@ -98,7 +90,6 @@ export default function Home() {
       <main className={styles.main}>
         <h1>Duocode</h1>
         
-        {/* Language Selection */}
         <div className={styles.languageSelection}>
           {["Java", "Python"].map((lang) => (
             <button 
@@ -111,7 +102,6 @@ export default function Home() {
           ))}
         </div>
 
-        {/* Programming Question */}
         <h3>{question.text}</h3>
         {question.options.map((option, index) => (
           <button key={index} onClick={() => handleSubmit(option)} className={styles.option}>
@@ -120,7 +110,6 @@ export default function Home() {
         ))}
         <p>{feedback}</p>
 
-        {/* Progress Bars */}
         <div className={styles.progressContainer}>
           {Object.keys(progress).map((lang) => (
             <div key={lang}>
@@ -132,13 +121,11 @@ export default function Home() {
           ))}
         </div>
 
-        {/* Stats */}
         <div className={styles.stats}>
           <p>🔥 Streak: {streak} days</p>
           <p>⭐ XP: {xp}</p>
         </div>
 
-        {/* Fun Fact Box */}
         <div className={styles.funFactBox}>
           <h3>FUN FACT</h3>
           <p>{funFact}</p>
