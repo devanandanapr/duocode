@@ -116,7 +116,7 @@ Final Prototype Website
 https://drive.google.com/file/d/1duMkDX_b4H8HS_txMNCpDvNjhh4fofNs/view?usp=sharing
 A demo of the website running on the phone. The page shows the streaks questions solution and the progress tracker updating accordingly. 
 
-# Additional Demos[
+### Additional Demos
 https://drive.google.com/file/d/1qvczKGD-8rkUs5bojwy_4H9LWHLe_ja2/view?usp=sharing
 A figma demo to understand the control flow.
 Made with ❤️ at TinkerHub
