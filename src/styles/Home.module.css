@@ -1,0 +1,151 @@
+.page {
+  --primary-bg: #1e3a5f; /* Dark Blue */
+  --secondary-bg: #f5f5dc; /* Beige */
+  --primary-text: #f5f5dc; /* Beige */
+  --secondary-text:#f5f5dc; /* Dark Blue */
+  --button-primary: #2c5f8a;
+  --button-secondary: #d9c7a9;
+  --button-hover: #4A79A6;
+  --progress-bg: #D9C7A9;
+  --progress-fill: #2c5f8a;
+  
+  display: grid;
+  grid-template-rows: 20px 1fr 20px;
+  align-items: center;
+  justify-items: center;
+  min-height: 100vh;
+  padding: 80px;
+  gap: 64px;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--secondary-bg);
+  color: var(--secondary-text);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  grid-row-start: 2;
+  width: 100%;
+  align-items: center;
+  background-color: #031832;
+}
+
+.main h1 {
+  font-size: 70px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 10px;
+  color: #D9C7A9;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.main h3 {
+  font-size: 20px;
+  font-weight:bold;
+  text-align: center;
+  padding: 10px;
+  color: #D9C7A9;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.languageSelection button {
+  background-color:#D9C7A9;
+  color:#031832;
+  font-family: 'Times New Roman', Times, serif;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.languageSelection button:hover {
+  background-color:#d9c7a9 ;
+}
+
+.option {
+  background-color:#d9c7a9;
+  color:#031832;
+  border: none;
+  padding: 10px 100px;
+  margin: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.option:hover {
+  background-color:aliceblue;
+  color:#031832;
+}
+
+.progressContainer {
+  width: 80%;
+  text-align: center;
+  color: #e3e0d7;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.progressBar {
+  width: 100%;
+  height: 20px;
+  background-color:#dccfb6;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.progressFill {
+  height: 100%;
+  background-color:#4A79A6;
+  transition: width 0.5s;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+  color: #d9c7a9;
+}
+
+.funFactBox {
+  background-color:#e3e0d7;
+  color:#031832;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 400px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.funFactBox h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #D9C7A9;
+}
+
+@media (max-width: 600px) {
+  .page {
+    padding: 32px;
+  }
+
+  .main {
+    align-items: center;
+  }
+
+  .progressContainer {
+    width: 100%;
+  }
+
+  .stats {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
