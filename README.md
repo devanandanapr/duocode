@@ -1,83 +1,113 @@
-# [Project Name] 🎯
+# DUOCODE 
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: OREO SHAKE
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: LIYA MARY KOSHY - CET
+- Member 2: GAURI G THAMPI - CET
+- Member 3: DEVANANDANA P R - CET
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+https://duocode-three.vercel.app/
 
 ### Project Description
-[2-3 lines about what your project does]
+DUOCODE- is a website that gamifies learning programming languages. Whether you are a newbie or a , with streaks, quests and levels, this is your one stop shop to attain coding mastery.
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+Coding can be intimidating and boring to many. With complex technicalities, it is every newbie's nightmare.
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+Duocode addresses the problem by gamifying the learning process and making coding interesting. The users can ask questions and doubts and check if the syntax is correct in the mini compiler.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Languages used:
+- JavaScript (for logic and functionality)
+HTML (for structuring the UI)
+CSS (for styling via modules and Tailwind)
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- Frameworks used:
+- React.js (for building the UI)
+Next.js (for server-side rendering and routing)
+
+- Libraries used:
+- Tailwind CSS (for styling the UI components)
+LocalStorage API (for storing XP, streaks, and progress)
+
+- Tools used:
+- Figma (for UI/UX design, as seen in the image)
+VS Code (for development)
+Git & GitHub (for version control and collaboration)
+
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+-# Clone the repository
+-git clone https://github.com/your-repository/duocode.git  
+-# Navigate to the project folder
+-cd duocode  
+-# Install project dependencies
+-npm install
 
 # Run
-[commands]
+npm run dev
 
 ### Project Documentation
 For Software:
+1. Introduction
+Duocode is an interactive learning platform designed to help users learn Java and Python through quizzes. It tracks progress, XP, and streaks while providing fun facts about programming.
 
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+2. Features
+📌 Programming Quiz System (Java & Python)
+🏆 XP & Streak System to track learning progress
+📊 Progress Bar for each language
+🎭 Random Fun Facts about programming
+🎨 User-Friendly Interface inspired by DuoLingo
+3. Technologies Used
+-Software Components
+Languages:
+1.JavaScript (Frontend)
+2.HTML & CSS (Styling and Layout)
+Frameworks:
+1.React.js (Component-based UI)
+2.Next.js (Routing, Server-side rendering)
+Libraries:
+1.Tailwind CSS (Styling)
+2.LocalStorage API (Saving XP, streaks, and progress)
+Development Tools:
+1.Figma (UI/UX Design)
+2.Visual Studio Code (Code Editor)
+3.Git & GitHub (Version Control)
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+# Screenshots:
+![image](https://github.com/user-attachments/assets/e91b80a0-08f3-4017-9233-0a617c2621e7)
+Basic prompt model of Duocode, including streak questions, progress tracker and funfacts
+
+
+![image](https://github.com/user-attachments/assets/55b06ead-216b-427e-828d-1c33eba94cb1) 
+Navigation Page to guide through different levels
+
+
+![image](https://github.com/user-attachments/assets/48d9c5f0-bfd9-4a07-b5f4-4a338d6ed7fb)
+Question to solve to maintain programming streaks
+
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+![image](https://github.com/user-attachments/assets/7443dfd7-e896-4797-b36c-68fa49206ead)
+Basic Flow of Website. Page1-Initial choice for choosing programming language and progress in each language. Page2- Level tracker, daily quest and leaderboard. Page with mini compiler for cheching errors and compilation. Panel for motivation and FunFacts.Page3- Question 
 
 # Build Photos
 ![Team](Add photo of your team here)
 
 
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
+![image](https://github.com/user-attachments/assets/38faed9e-4d9c-4875-91a5-e49ec098774e)
+Build Process
 
 ![Final](Add photo of final product here)
 *Explain the final build*
